@@ -23,10 +23,19 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+<<<<<<< HEAD
   if hash[key] 
   hash[key]+=1
 else
   hash[key]=1
+=======
+  if hash[key] do
+  hash[key]+=1
+end
+else hash[key]=1
+  return hash
+end
+>>>>>>> b1a16e0f32b4095518b164ce4d7bfeba14a420a2
 end
 return hash
 end
